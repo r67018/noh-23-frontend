@@ -3,6 +3,7 @@
 import vuetify from 'vite-plugin-vuetify'
 
 export default defineNuxtConfig({
+  srcDir: 'src',
   runtimeConfig: {
     public: {
       baseURL: process.env.API_BASE_URL || 'http://localhost/',
